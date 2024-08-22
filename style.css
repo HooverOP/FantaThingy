@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(171, 0, 0);
+    background: linear-gradient(0deg, rgba(171, 0, 0, 1) 0%, rgba(255, 98, 0, 1) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Verdana, sans-serif;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+    color: white;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    width: 40%;
+    margin-left: 40px;
+}
+
+section .title {
+    font-size: 55px;
+}
+
+section .title span {
+    font-size: 80px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+button {
+    margin-left: 6%;
+    margin-top: 0%;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.displayimg {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.displayimg img {
+    width: 100%;
+    height: auto;
+}
+
+.icons{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+.icons i {
+    margin-bottom: 10px;
+}
+
+.change-can-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.change-can-button img {
+    width: 40%; /* Adjust the width to make the image fill the button */
+    height: auto;
+}
+
+.circle {
+    margin-left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: linear-gradient(to bottom, #0f0f0f, #232d3f);
+}
